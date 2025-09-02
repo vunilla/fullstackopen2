@@ -54,7 +54,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>{kurssi.osat[0].nimi}</h1>
+      <h1>{kurssi.nimi}</h1>
       <p>
       <Sisalto osa={kurssi.osat[0].nimi} tehtava={kurssi.osat[0].tehtavat}/>
       </p>
